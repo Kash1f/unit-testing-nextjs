@@ -15,5 +15,5 @@ function sum(a: number, b: number) {
 //Unit test for the above sum function
 //add some description on what the function does
 test("adds 2+3 should be equal to 5", () => {
-  expect(sum(2, 3)).toBe(5);
-})
+  expect(sum(2, 3)).toBe(5)})
+  //This unit test validated that if we pass 2,3 to this particular sum function, this should be equal to 5, expect and toBe are pre-built functions and this test keyword also from react testing library which we can use in our unit tests.
